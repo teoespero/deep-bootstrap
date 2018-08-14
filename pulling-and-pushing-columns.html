@@ -36,17 +36,27 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1> Welcome to BootStrap</h1>
+			<h1>Pulling and pushing columns</h1>
+			<h2>We will look at the concept of Grid Layouts now</h2>
+			<div class="row">
 
-			<ul>
-				<li>Using the Bootstrap Grid classes</li>
-				<ul>
-					<li><a href="addRows-Columns.html">Adding rows and columns</a></li>
-					<li><a href="adding-offsets-to-columns.html">Adding offsets to columns</a></li>
-					<li><a href="pulling-and-pushing-columns.html">Pulling and pushing columns</a></li>
-				</ul>
-			</ul>
-		</div>
+					<!-- 1st column -->
+				<div class="col-md-9 col-md-push-3">
+					<h3>Paragraph 01</h3>
+				 	<p>
+				 		Lorem ipsum dolor amet chicharrones chartreuse scenester edison bulb shabby chic viral. Art party lomo roof party iceland etsy tumblr tbh pork belly. Hammock prism selfies portland brooklyn jean shorts. Four dollar toast jianbing truffaut craft beer poutine pour-over 3 wolf moon cornhole subway tile 8-bit taxidermy vice prism hashtag live-edge. Everyday carry selfies tilde YOLO kinfolk chia sriracha tumeric banh mi kickstarter, af you probably haven't heard of them occupy. Butcher art party mustache kinfolk gluten-free shabby chic next level hella yuccie +1 street art austin 3 wolf moon tilde blue bottle.
+				 	</p>
+				</div>
+				
+				<!-- 2nd column -->
+				<div class="col-md-3 col-md-pull-9">
+					<h3>Paragraph 02</h3>
+				 	<p>
+				 		Master cleanse ennui schlitz messenger bag, cornhole scenester ugh. Tote bag try-hard typewriter heirloom cardigan. VHS wayfarers iPhone helvetica. Lomo truffaut dreamcatcher farm-to-table. Af direct trade hoodie pickled narwhal VHS keytar vaporware pabst selfies.
+				 	</p>
+				</div>
+			</div>
+		</div>		
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
